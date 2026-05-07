@@ -6,7 +6,7 @@ Use this reference to determine what to review and when to ask for scope narrowi
 
 1. If the user provides a GitHub PR URL, PR number, or repository/PR reference, inspect that PR using available GitHub tools.
 2. Otherwise review the local branch diff against the base branch.
-3. Prefer `main...HEAD`; if `main` does not exist, try `master...HEAD`.
+3. Prefer `master...HEAD`; if `master` does not exist, try `main...HEAD`.
 4. If no base branch is discoverable, ask the user which base branch to compare against.
 5. If git or PR access is unavailable, ask the user to provide the diff, PR patch, or changed files.
 
