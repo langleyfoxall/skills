@@ -1,0 +1,7 @@
+{
+  "name": "codebased-skills",
+  "skills": [
+    "./skills/quiz-me",
+    "./skills/pr-review"
+  ]
+}
