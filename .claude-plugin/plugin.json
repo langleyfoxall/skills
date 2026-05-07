@@ -2,6 +2,7 @@
   "name": "codebased-skills",
   "skills": [
     "./skills/quiz-me",
-    "./skills/pr-review"
+    "./skills/pr-review",
+    "./skills/laravel-query-review"
   ]
 }
