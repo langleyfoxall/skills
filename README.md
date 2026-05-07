@@ -17,7 +17,7 @@ A skill that conducts complete chat-only PR or branch-diff reviews, listing acti
 Install from GitHub with the generic Skills CLI:
 
 ```bash
-npx skills@latest add <owner>/<repo>
+npx skills@latest add langleyfoxall/skills
 ```
 
 Install from a local checkout:
@@ -29,13 +29,13 @@ npx skills@latest add .
 Install a specific skill:
 
 ```bash
-npx skills@latest add <owner>/<repo> --skill pr-review
+npx skills@latest add langleyfoxall/skills --skill pr-review
 ```
 
 List available skills without installing:
 
 ```bash
-npx skills@latest add <owner>/<repo> --list
+npx skills@latest add langleyfoxall/skills --list
 ```
 
 ## Local Development
