@@ -16,6 +16,10 @@ A skill that conducts complete chat-only PR or branch-diff reviews, listing acti
 
 A skill that reviews Laravel Eloquent and DB facade/query-builder code for query performance, readability, indexing, N+1 risks, pagination, and best practice.
 
+### /shia
+
+A concise, safety-focused workflow for taking a confirmed code change from a clean default branch through implementation, review, commit, and push.
+
 ## Install
 
 Install from GitHub with the generic Skills CLI:
