@@ -3,6 +3,7 @@
   "skills": [
     "./skills/quiz-me",
     "./skills/pr-review",
-    "./skills/laravel-query-review"
+    "./skills/laravel-query-review",
+    "./skills/shia"
   ]
 }
