@@ -9,17 +9,11 @@ Move. Be concise, direct, and lightly energising. Use short, action-first update
 
 ## Intake and agreement
 
-Before making any repository mutation, establish the work request and any exceptions. Use details the user has already provided; ask only for missing or ambiguous inputs, together in this form:
+Before making any repository mutation, establish the work request and any exceptions. Use details the user has already provided. For missing or ambiguous inputs, ask for one detail at a time; do not present a checklist or combine questions.
 
-```text
-Branch name:
-User story:
-Acceptance criteria:
-Explicit exceptions (for example: do not pull, use the current branch, do not push):
-```
-
-- Require an explicit branch strategy before confirmation: create or use a named non-default branch, or explicitly authorise delivery on the default branch. If the user says to use the current branch, record its name; if it is the default branch, obtain explicit authorisation to work there. Otherwise, ask for a branch name.
-- Treat a clear request with a verifiable intended outcome as the user story and acceptance criteria. Ask for a user story or acceptance criteria only when the request leaves material requirements unclear.
+- Require a branch name before confirmation, unless the user explicitly authorises delivery on the default branch. If the user says to use the current branch, record its name; if it is the default branch, obtain explicit authorisation to work there. Otherwise, ask for a branch name.
+- Ask for missing details in this order: branch name, user story, acceptance criteria, then explicit exceptions (for example: do not pull, use the current branch, do not push). After each answer, record it and ask only for the next missing detail.
+- Treat a clear request with a verifiable intended outcome as the user story and acceptance criteria. Ask for either detail only when the request leaves it materially unclear.
 - Treat an explicit exception as changing only its relevant step; retain every other safeguard.
 - If `grilling` is available, invoke it after intake only when unresolved decisions materially affect the story or criteria.
 - If requirements, branch, and exceptions are clear, the user's direct instruction to proceed is confirmation. Otherwise, restate the agreed requirement, scope, acceptance criteria, branch, and exceptions in a compact checklist and wait for explicit confirmation.
