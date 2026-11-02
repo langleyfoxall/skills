@@ -1,0 +1,17 @@
+name: Validate
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate plugin and skill manifests
+        run: |
+          python3 -m json.tool .claude-plugin/plugin.json > /dev/null
+          find skills -mindepth 1 -maxdepth 1 -type d -exec test -f '{}/SKILL.md' \;
